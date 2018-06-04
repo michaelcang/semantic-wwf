@@ -1,0 +1,132 @@
+body {
+  font-family: "Slabo 27px", serif;
+}
+
+.nav-link {
+  color: gray;
+}
+
+.nav-link:hover {
+  color: lightgray;
+}
+
+.navbar-brand {
+  background-color: gray;
+  color: white;
+  padding: 5px 10px;
+  border-radius: 5px;
+}
+
+.navbar-brand:hover {
+  color: white;
+}
+
+.nav-item {
+  margin: 0px 10px;
+  text-align: center;
+}
+
+.navbar-btn {
+  background-color: coral;
+  color: white;
+}
+
+section {
+  margin-bottom: -30px;
+}
+
+.title {
+  text-align: center;
+  margin-bottom: 30px;
+}
+
+#overview-body {
+  margin: auto;
+  width: 1000px;
+  background-color: white;
+  padding: 30px;
+}
+
+#carousel-why {
+  margin: auto;
+  width: 90%;
+}
+
+.img-caption {
+  font-size: 12px;
+  position: absolute;
+  top: 8px;
+  right: 16px;
+  color: white;
+  text-shadow: 2px 2px 4px black;
+}
+
+.carousel-control-prev {
+  background-color: black;
+  width: 50px;
+  height: 100px;
+  margin: auto;
+}
+
+.carousel-control-next {
+  background-color: black;
+  width: 50px;
+  height: 100px;
+  margin: auto;
+}
+
+.why-text {
+  position: relative;
+  bottom: 140px;
+  z-index: 10;
+  background-color: white;
+  box-shadow: 1px 1px 2px gray;
+  width: 800px;
+  height: 200px;
+  padding: 5px 50px;
+}
+
+h5 {
+  margin-top: 15px;
+  text-align: center;
+}
+
+#why {
+  background-color: lightgray;
+}
+
+#why, #animal-list .title {
+  margin-top: -20px;
+}
+
+.animal-img {
+  width: 250px;
+}
+
+#animal-list .row {
+  margin: 20px 0px;
+}
+
+.animal-short {
+  padding: 5px;
+  text-align: center;
+  background-color: white;
+  box-shadow: 1px 1px 2px gray;
+  margin-right: 20px;
+  margin-left: 10px;
+  padding: 20px;
+}
+
+.animal-info {
+  background-color: white;
+  box-shadow: 1px 1px 2px gray;
+  padding: 5px 50px;
+}
+
+.footer {
+  left: 0;
+  bottom: 0;
+  width: 100%;
+  color: black;
+  text-align: center;
+}
